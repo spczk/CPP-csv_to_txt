@@ -13,7 +13,7 @@ std::string csvcheck(std::string text){
 }
 
 std::string txtcheck(std::string text){
-    std::size_t found = text.find(".txt"); // CHECKING THE PRESENCE OF .CSV EXTENSION
+    std::size_t found = text.find(".txt"); // CHECKING THE PRESENCE OF .txt EXTENSION
     if (found==std::string::npos)
         text += ".txt";    // IF IT'S NOT THERE - WE ADD IT
     return text;
